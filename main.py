@@ -77,7 +77,12 @@ if __name__=='__main__':
             webbrowser.open_new_tab("https://music.youtube.com")
             speak("Youtube Music is opened")
             time.sleep(5)
-
+            
+        elif 'play' in statement:
+            song = statement.replace('play', '')
+            speak('playing ' + song)
+            pywhatkit.playonyt(song)
+            
         elif 'open google' in statement:
             webbrowser.open_new_tab("https://www.google.com")
             speak("Google Chrome is opened")
