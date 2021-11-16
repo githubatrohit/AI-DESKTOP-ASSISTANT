@@ -120,7 +120,7 @@ if __name__=='__main__':
             time.sleep(5)
 
         elif 'who are you' in statement or 'what can you do' in statement:
-            speak('I am your persoanl assistant. I perform minor tasks like opening youtube, google chrome, gmail and leetcode , predict time, search, get news headlines from The TOI')
+            speak('I am your personal assistant. I perform minor tasks like opening youtube, google chrome, gmail and leetcode , predict time, search, get news headlines from The TOI')
 
 
         elif "who made you" in statement or "who created you" in statement or "who discovered you" in statement:
