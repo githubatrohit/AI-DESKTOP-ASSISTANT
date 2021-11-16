@@ -60,14 +60,22 @@ if __name__=='__main__':
         if statement==0:
             continue
 
-        if 'wikipedia' in statement:
+        if 'what is' in statement:
             speak('Searching Wikipedia...')
-            statement =statement.replace("wikipedia", "")
+            statement =statement.replace("what is", "")
             results = wikipedia.summary(statement, sentences=3)
             speak("According to Wikipedia")
             print(results)
             speak(results)
-
+            
+        elif 'who is' in statement:
+            speak('Searching Wikipedia...')
+            statement =statement.replace("who is", "")
+            results = wikipedia.summary(statement, sentences=3)
+            speak("According to Wikipedia")
+            print(results)
+            speak(results)
+            
         elif 'open youtube' in statement:
             webbrowser.open_new_tab("https://www.youtube.com")
             speak("Youtube is opened")
