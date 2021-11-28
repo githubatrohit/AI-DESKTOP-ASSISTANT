@@ -1,9 +1,9 @@
 # AI-VOICE-ASISTANT
 AI voice asistant built using python to perform various tasks which I was doing daily. Such as ckecking my mail, reading some news, some coding practice, listenig to music etc. just by saying some "trigerring" words.
 
-Firstly, on startup, the assistant wishes good morning, good aafternoon or good evening according to the current time.
+Firstly, on startup, the assistant wishes good morning, good afternoon or good evening according to the current time.
 
-When asked to open YouTube or YouTube Music, Gmail, Google or even Leetcode it opens the respectve websites in a new browser window.
+When asked to open YouTube, YouTube Music, Gmail, Google or even Leetcode it opens the respectve websites in a new browser window.
 
 When asked what is "something", it searches the statement on wikipedia and displays the first 3 sentences as the summary of the answer.
 
