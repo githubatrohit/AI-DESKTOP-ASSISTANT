@@ -1,4 +1,4 @@
-# AI-DESKTOP-ASISTANT
+# AI-DESKTOP-ASSISTANT
 AI Desktop asistant built using python to perform various tasks which I was doing daily. Such as ckecking my mail, reading some news, some coding practice, listenig to music etc. just by saying some "trigerring" words.
 
 Firstly, on startup, the assistant wishes good morning, good afternoon or good evening according to the current time.
